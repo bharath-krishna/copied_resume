@@ -1,184 +1,154 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "name":"Bharath Krishna",
+    "description":"Application Engineer",
+    "image":"bharath.jpeg",
+    "bio":"I am an Application Engineer with total 9+ years of experience. I mainly build backend services using Python, Golang in Kubernetes environments. Has knowledge of React and its frameworks to build UI applications also.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "email": "bharath.chakravarthi@gmail.com",
+    "phone": "+81-8087322215",
+    "github":"https://github.com/bharath-krishna",
+    "project":"https://github.com/bharath-krishna?tab=repositories",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"Aoba",
+      "city":"Yokohama",
+      "state":"Kanagawa",
+      "zip": "225-0021"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "http://bharathk.in",
+    "resumedownload":"http://bharathk.in/resume",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/bharath-krishna-652a7733/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/bharath-krishna",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"I have a wide skill set and deep knowledge as below",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Kuvempu University",
+        "degree":"Masters in Bioinformatics",
+        "graduated":"September 2010",
+        "description":"Use and development of computer applications to handle biological data."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"SJVP College",
+        "degree":"Batchelor degree in Biotechnology, Botany and Computer Science",
+        "graduated":"August 2018",
+        "description":"Studied Computer science application to biotechnology related data."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Rakuten Inc, Tokyo and Rakuten India Enterprise private limited, Bengaluru",
+        "title":"Application Engineer",
+        "years":"September 2014 to Present",
+        "description":"Building service orchestration for company’s private cloud which is a one-stop service for creating, analyzing, monitoring virtual machines, handle DNS (Infloblox, Nominum), load balancing (A10, BigIP), VM operation (vSphere), Global authentication and authorization platform (Graph DB, OPA, Keycloak) etc."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ITC infotech and Robert Bosch, Bengaluru",
+        "title":"Associate IT Consultant",
+        "years":"Jan-2014 to Sep-2014",
+        "description":"MKS Source code management tool administrator"
+      },
+      {
+        "company":"eHover Systems India Pvt. Ltd.",
+        "title":"Software Engineer",
+        "years":"Apr-2013 to Jan-2014",
+        "description":"Build cloud based personal surveillance system for working parents."
+      },
+      {
+        "company":"Dept. of P.G. Studies and Research in Biotechnology and Bioinformatics, Kuvempu University.",
+        "title":"Project Assistant",
+        "years":"Apr-2011 to Apr-2013",
+        "description":"Studies on the dynamics of the Endotoxin neutralizing protein interaction Network (PIN)"
+      },
+      {
+        "company":"Institute of Bioinformatics and Applied Biotechnology (IBAB), Bengaluru.",
+        "title":"Intern, Software developer,",
+        "years":"Sep-2010 to Feb-2011",
+        "description":"Studies on the dynamics of the Endotoxin neutralizing protein interaction Network (PIN)"
       }
+
     ],
     "skills":[
       {
         "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
         "level":"90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name":"Go",
+        "level":"70%"
       },
       {
-        "name":"Swift",
+        "name":"React, NextJS",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"30%"
+      },
+      {
+        "name":"Kubernetes",
+        "level":"70%"
+      },
+      {
+        "name":"AWS",
         "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Resume",
+        "category":"This Resume from Nordic Giant",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://github.com/bharath-krishna/copied_resume"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Social Media App",
+        "category":"An assignment for Huddl-ai Interview",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/bharath-krishna/huddl_ai"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Huddl-ai app backend",
+        "category":"RESTful APIs written in Python and FastAPI",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://github.com/bharath-krishna/backend_huddl_ai"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"Golang Framework",
+        "category":"A sample Go Gin framework boilerplate code",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/bharath-krishna/gogin_framework"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"FastAPI Framework",
+        "category":"Boilerplate code for FastAPI framework, includes logging, Dockerfile, JWT authn etc.",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://github.com/bharath-krishna/fastapi_framework"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"NextJS Framework",
+        "category":"Boilerplate code for NextJS framework, includes MUI and Redux",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"https://github.com/bharath-krishna/nextjs_redux_mui_framework"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"Family Tree Project",
+        "category":"An app to add information of famuly tree written in Go Gin",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://github.com/bharath-krishna/family-tree-backend"
       }
     ]
   }
