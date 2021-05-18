@@ -20,6 +20,7 @@ class Portfolio extends Component {
               image={projectImage}
               description={projects.category}
               url={projects.url}
+              appUrl={projects.appUrl}
             />
           </div>
         </div>

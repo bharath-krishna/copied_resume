@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function ProjetCard({ title, image, description, url }) {
+function ProjetCard({ title, image, description, url, appUrl }) {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -50,8 +50,9 @@ function ProjetCard({ title, image, description, url }) {
     <React.Fragment>
       <Card className={classes.root}>
         <CardHeader title={title} />
-
-        <CardMedia className={classes.media} image={image} title={title} />
+        <Link href={appUrl} target="_blank">
+          <CardMedia className={classes.media} image={image} title={title} />
+        </Link>
         <CardContent>
           <Typography variant="h5" color="textSecondary" component="p">
             {description}

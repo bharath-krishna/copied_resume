@@ -112,43 +112,50 @@
         "title":"Resume",
         "category":"This Resume from Nordic Giant",
         "image":"01.jpg",
-        "url":"https://github.com/bharath-krishna/copied_resume"
+        "url":"https://github.com/bharath-krishna/copied_resume",
+        "appUrl": "#"
       },
       {
         "title":"Social Media App",
         "category":"An assignment for Huddl-ai Interview",
         "image":"02.jpg",
-        "url":"https://github.com/bharath-krishna/huddl_ai"
+        "url":"https://github.com/bharath-krishna/huddl_ai",
+        "appUrl": "http://assignment.bharathk.in/"
       },
       {
         "title":"Huddl-ai app backend",
         "category":"RESTful APIs written in Python and FastAPI",
         "image":"03.jpg",
-        "url":"https://github.com/bharath-krishna/backend_huddl_ai"
+        "url":"https://github.com/bharath-krishna/backend_huddl_ai",
+        "appUrl": "http://huddl-ai.bharathk.in/apidocs"
       },
       {
         "title":"Golang Framework",
         "category":"A sample Go Gin framework boilerplate code",
         "image":"04.jpg",
-        "url":"https://github.com/bharath-krishna/gogin_framework"
+        "url":"https://github.com/bharath-krishna/gogin_framework",
+        "appUrl": "#"
       },
       {
         "title":"FastAPI Framework",
         "category":"Boilerplate code for FastAPI framework, includes logging, Dockerfile, JWT authn etc.",
         "image":"05.jpg",
-        "url":"https://github.com/bharath-krishna/fastapi_framework"
+        "url":"https://github.com/bharath-krishna/fastapi_framework",
+        "appUrl": "#"
       },
       {
         "title":"NextJS Framework",
         "category":"Boilerplate code for NextJS framework, includes MUI and Redux",
         "image":"05.jpg",
-        "url":"https://github.com/bharath-krishna/nextjs_redux_mui_framework"
+        "url":"https://github.com/bharath-krishna/nextjs_redux_mui_framework",
+        "appUrl": "#"
       },
       {
         "title":"Family Tree Project",
         "category":"An app to add information of famuly tree written in Go Gin",
         "image":"06.jpg",
-        "url":"https://github.com/bharath-krishna/family-tree-backend"
+        "url":"https://github.com/bharath-krishna/family-tree-backend",
+        "appUrl": "#"
       }
     ]
   }

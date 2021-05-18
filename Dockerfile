@@ -5,7 +5,6 @@ WORKDIR /usr/src/app
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
 COPY package.json /usr/src/app/package.json
 RUN npm install --silent
-RUN npm install react-scripts react-router-dom react-bootstrap react-force-graph-3d react-force-graph-2d -g --silent
 COPY . /usr/src/app
 RUN npm run build
 
