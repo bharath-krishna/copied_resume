@@ -11,9 +11,22 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
+    // "color"
+    // "ball"
+    // "lines"
+    // "thick"
+    // "circle"
+    // "cobweb"
+    // "polygon"
+    // "square"
+    // "tadpole"
+    // "fountain"
+    // "random"
+    // "custom"
+
     return (
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        <ParticlesBg color="#060101" num={50} type="lines" bg={true} />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -39,6 +52,12 @@ class Header extends Component {
             <li>
               <a className="smoothscroll" href="#resume">
                 Resume
+              </a>
+            </li>
+
+            <li>
+              <a className="smoothscroll" href="#skills">
+                Skills
               </a>
             </li>
 

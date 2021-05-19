@@ -16,7 +16,7 @@
       "zip": "225-0021"
     },
     "website": "http://bharathk.in",
-    "resumedownload":"http://bharathk.in/resume",
+    "resumedownload":"./resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -111,21 +111,21 @@
       {
         "title":"Resume",
         "category":"This Resume from Nordic Giant",
-        "image":"01.jpg",
+        "image":"resume.png",
         "url":"https://github.com/bharath-krishna/copied_resume",
         "appUrl": "#"
       },
       {
         "title":"Social Media App",
         "category":"An assignment for Huddl-ai Interview",
-        "image":"02.jpg",
+        "image":"huddl-ai-assignment.png",
         "url":"https://github.com/bharath-krishna/huddl_ai",
         "appUrl": "http://assignment.bharathk.in/"
       },
       {
         "title":"Huddl-ai app backend",
         "category":"RESTful APIs written in Python and FastAPI",
-        "image":"03.jpg",
+        "image":"huddl-ai-backend.png",
         "url":"https://github.com/bharath-krishna/backend_huddl_ai",
         "appUrl": "http://huddl-ai.bharathk.in/apidocs"
       },
