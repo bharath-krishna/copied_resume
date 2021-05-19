@@ -42,9 +42,6 @@ const useStyles = makeStyles((theme) => ({
 
 function ProjetCard({ title, image, description, url, appUrl }) {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
-
-  const preventDefault = (event) => event.preventDefault();
 
   return (
     <React.Fragment>
