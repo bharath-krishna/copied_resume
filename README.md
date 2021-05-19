@@ -1,29 +1,38 @@
-# React Nice Resume :page_with_curl:
+# Professional Resume
 
-### [LIVE DEMO](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
+This is a [React](https://reactjs.org/) Project.
 
-![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)
+## Getting Started
 
-# About [`particles-bg`](https://github.com/lindelof/particles-bg) Library
-#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
+First, run the development server:
 
-![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
-
-# Description
-This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments, thanks to the [author](https://github.com/tbakerx).
-
-![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img2.jpg?raw=true)
-
-# Run Project
-### 1. Clone the project
-
-### 2. Run the project
-```shell
-npm i
-npm start
+```bash
+> npm install
+> npm start
 ```
 
-### 3. Build
-```shell
-npm run build
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `public/resumeData.json` file. The page auto-updates as you edit the file.
+
+## Deploy using docker (Recommended)
+
+```bash
+> docker build -t my-resume .
+> docker run -d --name my-resume -p 3000:80 my-resume
 ```
+
+and access [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## How to stop and remove
+
+```bash
+> docker stop my-resume
+> docker rm my-resume
+```
+
+
+Copied from Nordic Giant
+© Copyright 2021 Nordic Giant
+### END
+
