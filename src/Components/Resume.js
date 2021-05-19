@@ -14,19 +14,19 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function (education) {
-      return (
-        <div key={education.school}>
-          <h3>{education.school}</h3>
-          <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
-          </p>
-          <p>{education.description}</p>
-        </div>
-      );
-    });
+    // const skillmessage = this.props.data.skillmessage;
+    // const education = this.props.data.education.map(function (education) {
+    //   return (
+    //     <div key={education.school}>
+    //       <h3>{education.school}</h3>
+    //       <p className="info">
+    //         {education.degree} <span>&bull;</span>
+    //         <em className="date">{education.graduated}</em>
+    //       </p>
+    //       <p>{education.description}</p>
+    //     </div>
+    //   );
+    // });
 
     const work = this.props.data.work.map(function (work) {
       return (
@@ -56,7 +56,7 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -70,7 +70,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
 
         <Slide left duration={1300}>
           <div className="row work">
@@ -84,7 +84,7 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -100,7 +100,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
       </section>
     );
   }

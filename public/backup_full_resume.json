@@ -1,0 +1,190 @@
+{
+    "main": {
+      "name":"Bharath Krishna",
+      "description":"Application Engineer",
+      "image":"bharath.jpeg",
+      "bio":"I am an Application Engineer with total 9+ years of experience. I mainly build backend services using Python, Golang in Kubernetes environments. Has knowledge of React and its frameworks to build UI applications also.",
+      "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+      "email": "bharath.chakravarthi@gmail.com",
+      "phone": "+81-8087322215",
+      "github":"https://github.com/bharath-krishna",
+      "project":"https://github.com/bharath-krishna?tab=repositories",
+      "address":{
+        "street":"Aoba",
+        "city":"Yokohama",
+        "state":"Kanagawa",
+        "zip": "225-0021"
+      },
+      "website": "http://bharathk.in",
+      "resumedownload":"http://bharathk.in/resume",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/bharath-krishna-652a7733/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"github",
+          "url":"https://github.com/bharath-krishna",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "skillmessage":"I have a wide skill set and deep knowledge as below",
+      "education":[
+        {
+          "school":"Kuvempu University?",
+          "degree":"Masters in Bioinformatics",
+          "graduated":"September 2010",
+          "description":"Use and development of computer applications to handle biological data."
+        },
+        {
+          "school":"SJVP College",
+          "degree":"Batchelor degree in Biotechnology, Botany and Computer Science",
+          "graduated":"August 2018",
+          "description":"Studied Computer science application to biotechnology related data."
+        }
+      ],
+      "work":[
+        {
+          "company":"Rakuten Inc, Tokyo and Rakuten India Enterprise private limited, Bengaluru",
+          "title":"Application Engineer",
+          "years":"September 2014 to Present",
+          "description":"Building service orchestration for company’s private cloud which is a one-stop service for creating, analyzing, monitoring virtual machines, handle DNS (Infloblox, Nominum), load balancing (A10, BigIP), VM operation (vSphere), Global authentication and authorization platform (Graph DB, OPA, Keycloak) etc."
+        },
+        {
+          "company":"ITC infotech and Robert Bosch, Bengaluru",
+          "title":"Associate IT Consultant",
+          "years":"Jan-2014 to Sep-2014",
+          "description":"MKS Source code management tool administrator"
+        },
+        {
+          "company":"eHover Systems India Pvt. Ltd.",
+          "title":"Software Engineer",
+          "years":"Apr-2013 to Jan-2014",
+          "description":"Build cloud based personal surveillance system for working parents."
+        },
+        {
+          "company":"Dept. of P.G. Studies and Research in Biotechnology and Bioinformatics, Kuvempu University.",
+          "title":"Project Assistant",
+          "years":"Apr-2011 to Apr-2013",
+          "description":"Studies on the dynamics of the Endotoxin neutralizing protein interaction Network (PIN)"
+        },
+        {
+          "company":"Institute of Bioinformatics and Applied Biotechnology (IBAB), Bengaluru.",
+          "title":"Intern, Software developer,",
+          "years":"Sep-2010 to Feb-2011",
+          "description":"Studies on the dynamics of the Endotoxin neutralizing protein interaction Network (PIN)"
+        }
+  
+      ],
+      "skills":[
+        {
+          "name":"Python",
+          "level":"60%"
+        },
+        {
+          "name":"VueJs",
+          "level":"55%"
+        },
+        {
+          "name":"ReactJs",
+          "level":"50%"
+        },
+        {
+          "name":"CSS",
+          "level":"90%"
+        },
+        {
+          "name":"PHP",
+          "level":"80%"
+        },
+        {
+          "name":"Swift",
+          "level":"50%"
+        },
+        {
+          "name":"JAVA",
+          "level":"80%"
+        }
+      ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"Canadian Wanderlust",
+          "category":"My Travel Blog for my post-university travels",
+          "image":"01.jpg",
+          "url":"https://www.canadianwanderlust.com"
+        },
+        {
+          "title":"Fury Fighting Gear",
+          "category":"(offline now) A fighting gear company I started",
+          "image":"02.jpg",
+          "url":"http://www.timbakerdev.com"
+        },
+        {
+          "title":"Original Thai Food",
+          "category":"Website I built for a restaurant I like in Thailand",
+          "image":"03.jpg",
+          "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        },
+        {
+          "title":"Resume Website",
+          "category":"A React based resume website template",
+          "image":"04.jpg",
+          "url":"http://www.timbakerdev.com"
+        },
+        {
+          "title":"Smirkspace",
+          "category":"(MVP Only) A React and Meteor based chat University project.",
+          "image":"05.jpg",
+          "url":"http://www.smirkspace.com"
+        },
+        {
+          "title":"Canadian Wanderlust",
+          "category":"My Travel Blog for my post-university travels",
+          "image":"06.jpg",
+          "url":"https://www.canadianwanderlust.com"
+        },
+        {
+          "title":"Fury Fighting Gear",
+          "category":"(offline now) A fighting gear company I started",
+          "image":"01.jpg",
+          "url":"http://www.timbakerdev.com"
+        },
+        {
+          "title":"Original Thai Food",
+          "category":"Website I built for a restaurant I like in Thailand",
+          "image":"02.jpg",
+          "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        },
+        {
+          "title":"Original Thai Food",
+          "category":"Website I built for a restaurant I like in Thailand",
+          "image":"03.jpg",
+          "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        },
+        {
+          "title":"Resume Website",
+          "category":"A React based resume website template",
+          "image":"04.jpg",
+          "url":"http://www.timbakerdev.com"
+        },
+        {
+          "title":"Smirkspace",
+          "category":"(MVP Only) A React and Meteor based chat University project.",
+          "image":"05.jpg",
+          "url":"http://www.smirkspace.com"
+        },
+        {
+          "title":"Canadian Wanderlust",
+          "category":"My Travel Blog for my post-university travels",
+          "image":"06.jpg",
+          "url":"https://www.canadianwanderlust.com"
+        }
+      ]
+    }
+  }
+  
