@@ -21,6 +21,7 @@ class Projects extends Component {
               description={projects.category}
               url={projects.url}
               appUrl={projects.appUrl}
+              docker_image_url={projects.docker_image_url}
             />
           </div>
         </div>

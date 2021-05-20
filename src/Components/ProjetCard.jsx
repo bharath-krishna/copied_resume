@@ -9,7 +9,9 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { red } from "@material-ui/core/colors";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import { Link } from "@material-ui/core";
+import { Icon, Link, SvgIcon } from "@material-ui/core";
+
+import DockerIcon from "../Components/docker.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +36,14 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function ProjetCard({ title, image, description, url, appUrl }) {
+function ProjetCard({
+  title,
+  image,
+  description,
+  url,
+  appUrl,
+  docker_image_url,
+}) {
   const classes = useStyles();
 
   return (
@@ -51,10 +60,17 @@ function ProjetCard({ title, image, description, url, appUrl }) {
         </CardContent>
         <CardActions disableSpacing>
           <Link href={url} target="_blank">
-            <IconButton aria-label="add to favorites">
+            <IconButton aria-label="add to favorites" size="medium">
               <GitHubIcon />
             </IconButton>
           </Link>
+          {docker_image_url && (
+            <Link href={docker_image_url} target="_blank">
+              <IconButton aria-label="add to favorites">
+                <img width={20} src={DockerIcon} />
+              </IconButton>
+            </Link>
+          )}
         </CardActions>
       </Card>
     </React.Fragment>
