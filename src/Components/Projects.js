@@ -4,7 +4,7 @@ import Fade from "react-reveal";
 import ProjetCard from "./ProjetCard";
 
 let id = 0;
-class Portfolio extends Component {
+class Projects extends Component {
   render() {
     if (!this.props.data) return null;
 
@@ -32,7 +32,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Check Out Some of My Projects.</h1>
 
               <div
                 id="portfolio-wrapper"
@@ -48,4 +48,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default Projects;
