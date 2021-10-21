@@ -123,6 +123,13 @@
         "url":"https://github.com/bharath-krishna/gogin_framework",
         "appUrl": "http://gogin.bharathk.in/swagger/index.html",
         "docker_image_url": "https://hub.docker.com/r/krishbharath/gogin-framework"
+      },
+      {
+        "title":"Terraform IAC",
+        "category":"Terraform code for managing GKE cluster",
+        "image":"01.jpg",
+        "url":"https://github.com/bharath-krishna/terraform_iac",
+        "appUrl": "https://github.com/bharath-krishna/terraform_iac"
       }
     ]
   }
