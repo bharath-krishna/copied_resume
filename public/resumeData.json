@@ -117,51 +117,12 @@
         "docker_image_url": "https://hub.docker.com/r/krishbharath/my_resume"
       },
       {
-        "title":"Social Media App",
-        "category":"An assignment for Huddl-ai Interview",
-        "image":"huddl-ai-assignment.png",
-        "url":"https://github.com/bharath-krishna/huddl_ai",
-        "appUrl": "http://assignment.bharathk.in/",
-        "docker_image_url": "https://hub.docker.com/r/krishbharath/huddl-ai-assignment"
-      },
-      {
-        "title":"Huddl-ai app backend",
-        "category":"RESTful APIs written in Python and FastAPI",
-        "image":"huddl-ai-backend.png",
-        "url":"https://github.com/bharath-krishna/backend_huddl_ai",
-        "appUrl": "http://huddl-ai.bharathk.in/apidocs",
-        "docker_image_url": "https://hub.docker.com/r/krishbharath/backend-huddl-ai"
-      },
-      {
         "title":"Golang Framework",
         "category":"A sample Go Gin framework boilerplate code",
         "image":"gogin_framework.png",
         "url":"https://github.com/bharath-krishna/gogin_framework",
         "appUrl": "http://gogin.bharathk.in/swagger/index.html",
         "docker_image_url": "https://hub.docker.com/r/krishbharath/gogin-framework"
-      },
-      {
-        "title":"FastAPI Framework",
-        "category":"Boilerplate code for FastAPI framework, includes logging, Dockerfile, JWT authn etc.",
-        "image":"fastapi_framework.png",
-        "url":"https://github.com/bharath-krishna/fastapi_framework",
-        "appUrl": "#",
-        "docker_image_url": "https://hub.docker.com/r/krishbharath/fastapi_framework"
-      },
-      {
-        "title":"NextJS Framework",
-        "category":"Boilerplate code for NextJS framework, includes MUI and Redux",
-        "image":"05.jpg",
-        "url":"https://github.com/bharath-krishna/nextjs_redux_mui_framework",
-        "appUrl": "#"
-      },
-      {
-        "title":"Family Tree Project",
-        "category":"An app to add information of famuly tree written in Go Gin",
-        "image":"06.jpg",
-        "url":"https://github.com/bharath-krishna/family-tree-backend",
-        "appUrl": "#",
-        "docker_image_url": "https://hub.docker.com/r/krishbharath/family-tree-backend"
       }
     ]
   }
