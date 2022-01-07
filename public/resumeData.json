@@ -3,10 +3,9 @@
     "name":"Bharath Krishna",
     "description":"Application Engineer",
     "image":"bharath.jpeg",
-    "bio":"I am an Application Engineer with total 9+ years of experience. I mainly build backend services using Python, Golang in Kubernetes environments. Has knowledge of React and its frameworks to build UI applications also.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"I am an application engineer with total 9+ years of experience. I mainly build backend services using python, golang in kubernetes environments. Worked as devops engineer as well, strong in terraform and ansible. Involved in building various cloud related services, like DNS, load balancer, auth, etc. Has knowledge of react and its frameworks to build UI applications also.",
     "email": "bharath.chakravarthi@gmail.com",
-    "phone": "+81-8087322215",
+    "phone": "+81-8087322215 (Japan), +91-7760779000 (India)",
     "github":"https://github.com/bharath-krishna",
     "project":"https://github.com/bharath-krishna?tab=repositories",
     "address":{
@@ -51,7 +50,7 @@
         "company":"Rakuten Inc, Tokyo and Rakuten India Enterprise private limited, Bengaluru",
         "title":"Application Engineer",
         "years":"September 2014 to Present",
-        "description":"Building service orchestration for company’s private cloud which is a one-stop service for creating, analyzing, monitoring virtual machines, handle DNS (Infloblox, Nominum), load balancing (A10, BigIP), VM operation (vSphere), Global authentication and authorization platform (Graph DB, OPA, Keycloak) etc."
+        "description":"Building APIs for Infrastructure as a Service with VMware vSphere as backend. Building APIs for DNS as a service with SDKs for nominum and infonlox backend. Building APIs for load balancer as a service with F5 and BigIP backend. Building infrastructure-as-a-code using terraform and ansible. Extending terraform with custom plugins and writing GoLang SDKs for company’s cloud platform. Write testcases using pytest, load tests using locust to check the efficiency and stability of services. Writing batch scripts and daily running jobs for collecting auth data using apache airflow. Developing toolkit for easy building, testing and deployment of REST APIs using FastAPI and Gin Gonic framework. Building authentication and authorization services using keycloak and kong. Lead team of 3 members by managing tasks, providing guidance on requirements. Worked as scrum master to supervise project progress with daily huddles and review meetings. Collaborating with different teams to get requirements and improve our services."
       },
       {
         "company":"ITC infotech and Robert Bosch, Bengaluru",
@@ -101,7 +100,11 @@
         "level":"70%"
       },
       {
-        "name":"AWS",
+        "name":"Terraform, Ansible",
+        "level":"70%"
+      },
+      {
+        "name":"AWS, GCP",
         "level":"50%"
       }
     ]
@@ -132,18 +135,20 @@
         "appUrl": "https://github.com/bharath-krishna/terraform_iac"
       },
       {
-        "title":"Storage as a Service",
-        "category":"A simple cloud file storage app",
-        "image":"box-ui.png",
-        "url":"https://github.com/bharath-krishna/woven_box_ui",
-        "appUrl": "https://box-ui.bharathk.in"
+        "title":"Cloud storage app API",
+        "category":"APIs for cloud storage app deployed in gke",
+        "image":"02.jpg",
+        "url":"https://github.com/bharath-krishna/woven-box_api",
+        "appUrl": "http://box-api.bharathk.in/apidocs",
+        "docker_image_url": "https://hub.docker.com/repository/docker/krishbharath/my_box_api"
       },
       {
-        "title":"Storage as a Service",
-        "category":"Api for cloud file storage app",
-        "image":"box-ui.jpg",
-        "url":"https://github.com/bharath-krishna/woven_box_api",
-        "appUrl": "https://box-api.bharathk.in"
+        "title":"Cloud storage app UI",
+        "category":"UI for cloud storage app deployed on vercel platform",
+        "image":"03.jpg",
+        "url":"https://github.com/bharath-krishna/woven-box_api",
+        "appUrl": "http://box-api.bharathk.in/apidocs",
+        "docker_image_url": "https://hub.docker.com/repository/docker/krishbharath/my_box_api"
       }
     ]
   }
