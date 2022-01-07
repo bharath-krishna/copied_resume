@@ -145,10 +145,9 @@
       {
         "title":"Cloud storage app UI",
         "category":"UI for cloud storage app deployed on vercel platform",
-        "image":"03.jpg",
+        "image":"06.jpg",
         "url":"https://github.com/bharath-krishna/woven-box_api",
-        "appUrl": "http://box-api.bharathk.in/apidocs",
-        "docker_image_url": "https://hub.docker.com/repository/docker/krishbharath/my_box_api"
+        "appUrl": "https://box-ui.bharathk.in"
       }
     ]
   }
